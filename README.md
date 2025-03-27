@@ -14,6 +14,6 @@ cd repository
 # Install dependencies
 npm i
 
-# Execute o projeto
+# Execute this project
 docker compose up -d 
 
