@@ -1,6 +1,6 @@
-const amqp = require("amqplib")
+import amqp from "amqplib"
 
-async function  receiveEmail(params) {
+async function  receiveEmail() {
 
     try {
 

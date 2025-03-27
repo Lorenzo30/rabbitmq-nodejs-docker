@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "amqplib": "^0.10.5"
+    "amqplib": "^0.10.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+     "run-producer-direct-exchange":"tsx ./direct-exchange/producer.ts",
+     "run-receiver-direct-exchange":"tsx ./direct-exchange/receiveMail.ts"
   }
 }
